@@ -1,0 +1,148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GPIO3DATA	ledblink_for_lpc1343/lpcstartup.c	3;"	d	file:
+GPIO3DIR	ledblink_for_lpc1343/lpcstartup.c	4;"	d	file:
+GPIO_BASE	ledblink/ledblink.c	2;"	d	file:
+GPIO_BASE	ledblink/ledblink.c	4;"	d	file:
+GPIO_BASE	ledblink2/rpi_gpio.h	6;"	d
+GPIO_BASE	ledblink2/rpi_gpio.h	8;"	d
+GPIO_BASE	ledblink_with_init/rpi_gpio.h	6;"	d
+GPIO_BASE	ledblink_with_init/rpi_gpio.h	8;"	d
+GPIO_GPAFEN0	ledblink/ledblink.c	55;"	d	file:
+GPIO_GPAFEN0	ledblink2/rpi_gpio.h	59;"	d
+GPIO_GPAFEN0	ledblink_with_init/rpi_gpio.h	59;"	d
+GPIO_GPAFEN1	ledblink/ledblink.c	56;"	d	file:
+GPIO_GPAFEN1	ledblink2/rpi_gpio.h	60;"	d
+GPIO_GPAFEN1	ledblink_with_init/rpi_gpio.h	60;"	d
+GPIO_GPAREN0	ledblink/ledblink.c	52;"	d	file:
+GPIO_GPAREN0	ledblink2/rpi_gpio.h	56;"	d
+GPIO_GPAREN0	ledblink_with_init/rpi_gpio.h	56;"	d
+GPIO_GPAREN1	ledblink/ledblink.c	53;"	d	file:
+GPIO_GPAREN1	ledblink2/rpi_gpio.h	57;"	d
+GPIO_GPAREN1	ledblink_with_init/rpi_gpio.h	57;"	d
+GPIO_GPCLR0	ledblink/ledblink.c	31;"	d	file:
+GPIO_GPCLR0	ledblink2/rpi_gpio.h	35;"	d
+GPIO_GPCLR0	ledblink_with_init/rpi_gpio.h	35;"	d
+GPIO_GPCLR1	ledblink/ledblink.c	32;"	d	file:
+GPIO_GPCLR1	ledblink2/rpi_gpio.h	36;"	d
+GPIO_GPCLR1	ledblink_with_init/rpi_gpio.h	36;"	d
+GPIO_GPEDS0	ledblink/ledblink.c	37;"	d	file:
+GPIO_GPEDS0	ledblink2/rpi_gpio.h	41;"	d
+GPIO_GPEDS0	ledblink_with_init/rpi_gpio.h	41;"	d
+GPIO_GPEDS1	ledblink/ledblink.c	38;"	d	file:
+GPIO_GPEDS1	ledblink2/rpi_gpio.h	42;"	d
+GPIO_GPEDS1	ledblink_with_init/rpi_gpio.h	42;"	d
+GPIO_GPFEN0	ledblink/ledblink.c	43;"	d	file:
+GPIO_GPFEN0	ledblink2/rpi_gpio.h	47;"	d
+GPIO_GPFEN0	ledblink_with_init/rpi_gpio.h	47;"	d
+GPIO_GPFEN1	ledblink/ledblink.c	44;"	d	file:
+GPIO_GPFEN1	ledblink2/rpi_gpio.h	48;"	d
+GPIO_GPFEN1	ledblink_with_init/rpi_gpio.h	48;"	d
+GPIO_GPFSEL0	ledblink/ledblink.c	21;"	d	file:
+GPIO_GPFSEL0	ledblink2/rpi_gpio.h	25;"	d
+GPIO_GPFSEL0	ledblink_with_init/rpi_gpio.h	25;"	d
+GPIO_GPFSEL1	ledblink/ledblink.c	22;"	d	file:
+GPIO_GPFSEL1	ledblink2/rpi_gpio.h	26;"	d
+GPIO_GPFSEL1	ledblink_with_init/rpi_gpio.h	26;"	d
+GPIO_GPFSEL2	ledblink/ledblink.c	23;"	d	file:
+GPIO_GPFSEL2	ledblink2/rpi_gpio.h	27;"	d
+GPIO_GPFSEL2	ledblink_with_init/rpi_gpio.h	27;"	d
+GPIO_GPFSEL3	ledblink/ledblink.c	24;"	d	file:
+GPIO_GPFSEL3	ledblink2/rpi_gpio.h	28;"	d
+GPIO_GPFSEL3	ledblink_with_init/rpi_gpio.h	28;"	d
+GPIO_GPFSEL4	ledblink/ledblink.c	25;"	d	file:
+GPIO_GPFSEL4	ledblink2/rpi_gpio.h	29;"	d
+GPIO_GPFSEL4	ledblink_with_init/rpi_gpio.h	29;"	d
+GPIO_GPFSEL5	ledblink/ledblink.c	26;"	d	file:
+GPIO_GPFSEL5	ledblink2/rpi_gpio.h	30;"	d
+GPIO_GPFSEL5	ledblink_with_init/rpi_gpio.h	30;"	d
+GPIO_GPHEN0	ledblink/ledblink.c	46;"	d	file:
+GPIO_GPHEN0	ledblink2/rpi_gpio.h	50;"	d
+GPIO_GPHEN0	ledblink_with_init/rpi_gpio.h	50;"	d
+GPIO_GPHEN1	ledblink/ledblink.c	47;"	d	file:
+GPIO_GPHEN1	ledblink2/rpi_gpio.h	51;"	d
+GPIO_GPHEN1	ledblink_with_init/rpi_gpio.h	51;"	d
+GPIO_GPLEN0	ledblink/ledblink.c	49;"	d	file:
+GPIO_GPLEN0	ledblink2/rpi_gpio.h	53;"	d
+GPIO_GPLEN0	ledblink_with_init/rpi_gpio.h	53;"	d
+GPIO_GPLEN1	ledblink/ledblink.c	50;"	d	file:
+GPIO_GPLEN1	ledblink2/rpi_gpio.h	54;"	d
+GPIO_GPLEN1	ledblink_with_init/rpi_gpio.h	54;"	d
+GPIO_GPLEV0	ledblink/ledblink.c	34;"	d	file:
+GPIO_GPLEV0	ledblink2/rpi_gpio.h	38;"	d
+GPIO_GPLEV0	ledblink_with_init/rpi_gpio.h	38;"	d
+GPIO_GPLEV1	ledblink/ledblink.c	35;"	d	file:
+GPIO_GPLEV1	ledblink2/rpi_gpio.h	39;"	d
+GPIO_GPLEV1	ledblink_with_init/rpi_gpio.h	39;"	d
+GPIO_GPPUD	ledblink/ledblink.c	58;"	d	file:
+GPIO_GPPUD	ledblink2/rpi_gpio.h	62;"	d
+GPIO_GPPUD	ledblink_with_init/rpi_gpio.h	62;"	d
+GPIO_GPPUDCLK0	ledblink/ledblink.c	59;"	d	file:
+GPIO_GPPUDCLK0	ledblink2/rpi_gpio.h	63;"	d
+GPIO_GPPUDCLK0	ledblink_with_init/rpi_gpio.h	63;"	d
+GPIO_GPPUDCLK1	ledblink/ledblink.c	60;"	d	file:
+GPIO_GPPUDCLK1	ledblink2/rpi_gpio.h	64;"	d
+GPIO_GPPUDCLK1	ledblink_with_init/rpi_gpio.h	64;"	d
+GPIO_GPREN0	ledblink/ledblink.c	40;"	d	file:
+GPIO_GPREN0	ledblink2/rpi_gpio.h	44;"	d
+GPIO_GPREN0	ledblink_with_init/rpi_gpio.h	44;"	d
+GPIO_GPREN1	ledblink/ledblink.c	41;"	d	file:
+GPIO_GPREN1	ledblink2/rpi_gpio.h	45;"	d
+GPIO_GPREN1	ledblink_with_init/rpi_gpio.h	45;"	d
+GPIO_GPSET0	ledblink/ledblink.c	28;"	d	file:
+GPIO_GPSET0	ledblink2/rpi_gpio.h	32;"	d
+GPIO_GPSET0	ledblink_with_init/rpi_gpio.h	32;"	d
+GPIO_GPSET1	ledblink/ledblink.c	29;"	d	file:
+GPIO_GPSET1	ledblink2/rpi_gpio.h	33;"	d
+GPIO_GPSET1	ledblink_with_init/rpi_gpio.h	33;"	d
+LED_GPCLR	ledblink/ledblink.c	11;"	d	file:
+LED_GPCLR	ledblink/ledblink.c	17;"	d	file:
+LED_GPCLR	ledblink2/rpi_gpio.h	15;"	d
+LED_GPCLR	ledblink2/rpi_gpio.h	21;"	d
+LED_GPCLR	ledblink_with_init/rpi_gpio.h	15;"	d
+LED_GPCLR	ledblink_with_init/rpi_gpio.h	21;"	d
+LED_GPFBIT	ledblink/ledblink.c	15;"	d	file:
+LED_GPFBIT	ledblink/ledblink.c	9;"	d	file:
+LED_GPFBIT	ledblink2/rpi_gpio.h	13;"	d
+LED_GPFBIT	ledblink2/rpi_gpio.h	19;"	d
+LED_GPFBIT	ledblink_with_init/rpi_gpio.h	13;"	d
+LED_GPFBIT	ledblink_with_init/rpi_gpio.h	19;"	d
+LED_GPFSEL	ledblink/ledblink.c	14;"	d	file:
+LED_GPFSEL	ledblink/ledblink.c	8;"	d	file:
+LED_GPFSEL	ledblink2/rpi_gpio.h	12;"	d
+LED_GPFSEL	ledblink2/rpi_gpio.h	18;"	d
+LED_GPFSEL	ledblink_with_init/rpi_gpio.h	12;"	d
+LED_GPFSEL	ledblink_with_init/rpi_gpio.h	18;"	d
+LED_GPIO_BIT	ledblink/ledblink.c	12;"	d	file:
+LED_GPIO_BIT	ledblink/ledblink.c	18;"	d	file:
+LED_GPIO_BIT	ledblink2/rpi_gpio.h	16;"	d
+LED_GPIO_BIT	ledblink2/rpi_gpio.h	22;"	d
+LED_GPIO_BIT	ledblink_with_init/rpi_gpio.h	16;"	d
+LED_GPIO_BIT	ledblink_with_init/rpi_gpio.h	22;"	d
+LED_GPSET	ledblink/ledblink.c	10;"	d	file:
+LED_GPSET	ledblink/ledblink.c	16;"	d	file:
+LED_GPSET	ledblink2/rpi_gpio.h	14;"	d
+LED_GPSET	ledblink2/rpi_gpio.h	20;"	d
+LED_GPSET	ledblink_with_init/rpi_gpio.h	14;"	d
+LED_GPSET	ledblink_with_init/rpi_gpio.h	20;"	d
+RPI_GPIO_H	ledblink2/rpi_gpio.h	2;"	d
+RPI_GPIO_H	ledblink_with_init/rpi_gpio.h	2;"	d
+_cstartup	ledblink_with_init/startup.c	/^void _cstartup( unsigned int r0, unsigned int r1, unsigned int r2 )$/;"	f
+_get_stack_pointer	ledblink_with_init/start.S	/^_get_stack_pointer:$/;"	l
+_inf_loop	ledblink_with_init/start.S	/^_inf_loop:$/;"	l
+_start	ledblink_with_init/start.S	/^_start:$/;"	l
+gpio	ledblink/ledblink.c	/^volatile unsigned int* gpio;$/;"	v
+gpio	ledblink2/ledblink.c	/^volatile unsigned int* gpio;$/;"	v
+gpio	ledblink_with_init/ledblink.c	/^volatile unsigned int* gpio = (unsigned int*)GPIO_BASE;$/;"	v
+kernel_main	ledblink_with_init/ledblink.c	/^int kernel_main(unsigned int r0, unsigned int r1, unsigned int r2)$/;"	f
+main	ledblink/ledblink.c	/^int main(void)$/;"	f
+main	ledblink2/ledblink.c	/^int main(void)$/;"	f
+main	ledblink_for_lpc1343/lpcstartup.c	/^int main()$/;"	f
+tim	ledblink/ledblink.c	/^volatile unsigned int tim;$/;"	v
+tim	ledblink2/ledblink.c	/^volatile unsigned int tim;$/;"	v
+tim	ledblink_with_init/ledblink.c	/^volatile unsigned int tim;$/;"	v
+vectors	ledblink_for_lpc1343/lpcstartup.c	/^const void *vectors[128] __attribute__ ((section(".irq_vectors"))) =$/;"	v
