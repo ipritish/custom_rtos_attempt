@@ -99,24 +99,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ledblink.c
+# Target rules for targets named kernel
 
 # Build rule for target.
-ledblink.c: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ledblink.c
-.PHONY : ledblink.c
+kernel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kernel
+.PHONY : kernel
 
 # fast build rule for target.
-ledblink.c/fast:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/build
-.PHONY : ledblink.c/fast
+kernel/fast:
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/build
+.PHONY : kernel/fast
 
 cstubs.obj: cstubs.c.obj
 .PHONY : cstubs.obj
 
 # target to build an object file
 cstubs.c.obj:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/cstubs.c.obj
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/cstubs.c.obj
 .PHONY : cstubs.c.obj
 
 cstubs.i: cstubs.c.i
@@ -124,7 +124,7 @@ cstubs.i: cstubs.c.i
 
 # target to preprocess a source file
 cstubs.c.i:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/cstubs.c.i
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/cstubs.c.i
 .PHONY : cstubs.c.i
 
 cstubs.s: cstubs.c.s
@@ -132,15 +132,39 @@ cstubs.s: cstubs.c.s
 
 # target to generate assembly for a file
 cstubs.c.s:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/cstubs.c.s
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/cstubs.c.s
 .PHONY : cstubs.c.s
+
+ledblink.obj: ledblink.c.obj
+.PHONY : ledblink.obj
+
+# target to build an object file
+ledblink.c.obj:
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/ledblink.c.obj
+.PHONY : ledblink.c.obj
+
+ledblink.i: ledblink.c.i
+.PHONY : ledblink.i
+
+# target to preprocess a source file
+ledblink.c.i:
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/ledblink.c.i
+.PHONY : ledblink.c.i
+
+ledblink.s: ledblink.c.s
+.PHONY : ledblink.s
+
+# target to generate assembly for a file
+ledblink.c.s:
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/ledblink.c.s
+.PHONY : ledblink.c.s
 
 rpi-systimer.obj: rpi-systimer.c.obj
 .PHONY : rpi-systimer.obj
 
 # target to build an object file
 rpi-systimer.c.obj:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/rpi-systimer.c.obj
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/rpi-systimer.c.obj
 .PHONY : rpi-systimer.c.obj
 
 rpi-systimer.i: rpi-systimer.c.i
@@ -148,7 +172,7 @@ rpi-systimer.i: rpi-systimer.c.i
 
 # target to preprocess a source file
 rpi-systimer.c.i:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/rpi-systimer.c.i
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/rpi-systimer.c.i
 .PHONY : rpi-systimer.c.i
 
 rpi-systimer.s: rpi-systimer.c.s
@@ -156,7 +180,7 @@ rpi-systimer.s: rpi-systimer.c.s
 
 # target to generate assembly for a file
 rpi-systimer.c.s:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/rpi-systimer.c.s
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/rpi-systimer.c.s
 .PHONY : rpi-systimer.c.s
 
 start.obj: start.S.obj
@@ -164,7 +188,7 @@ start.obj: start.S.obj
 
 # target to build an object file
 start.S.obj:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/start.S.obj
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/start.S.obj
 .PHONY : start.S.obj
 
 startup.obj: startup.c.obj
@@ -172,7 +196,7 @@ startup.obj: startup.c.obj
 
 # target to build an object file
 startup.c.obj:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/startup.c.obj
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/startup.c.obj
 .PHONY : startup.c.obj
 
 startup.i: startup.c.i
@@ -180,7 +204,7 @@ startup.i: startup.c.i
 
 # target to preprocess a source file
 startup.c.i:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/startup.c.i
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/startup.c.i
 .PHONY : startup.c.i
 
 startup.s: startup.c.s
@@ -188,7 +212,7 @@ startup.s: startup.c.s
 
 # target to generate assembly for a file
 startup.c.s:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/startup.c.s
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/startup.c.s
 .PHONY : startup.c.s
 
 # Help Target
@@ -198,11 +222,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... ledblink.c"
+	@echo "... kernel"
 	@echo "... rebuild_cache"
 	@echo "... cstubs.obj"
 	@echo "... cstubs.i"
 	@echo "... cstubs.s"
+	@echo "... ledblink.obj"
+	@echo "... ledblink.i"
+	@echo "... ledblink.s"
 	@echo "... rpi-systimer.obj"
 	@echo "... rpi-systimer.i"
 	@echo "... rpi-systimer.s"

@@ -53,38 +53,38 @@ CMAKE_SOURCE_DIR = /home/user/work/rtos/custom_rtos_attempt/ledblink_cmake
 CMAKE_BINARY_DIR = /home/user/work/rtos/custom_rtos_attempt/ledblink_cmake
 
 #=============================================================================
-# Target rules for target CMakeFiles/ledblink.c.dir
+# Target rules for target CMakeFiles/kernel.dir
 
 # All Build rule for target.
-CMakeFiles/ledblink.c.dir/all:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/depend
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/work/rtos/custom_rtos_attempt/ledblink_cmake/CMakeFiles  1 2 3 4
-	@echo "Built target ledblink.c"
-.PHONY : CMakeFiles/ledblink.c.dir/all
+CMakeFiles/kernel.dir/all:
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/depend
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/user/work/rtos/custom_rtos_attempt/ledblink_cmake/CMakeFiles  1 2 3 4 5
+	@echo "Built target kernel"
+.PHONY : CMakeFiles/kernel.dir/all
 
 # Include target in all.
-all: CMakeFiles/ledblink.c.dir/all
+all: CMakeFiles/kernel.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ledblink.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/work/rtos/custom_rtos_attempt/ledblink_cmake/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ledblink.c.dir/all
+CMakeFiles/kernel.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/work/rtos/custom_rtos_attempt/ledblink_cmake/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/kernel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/work/rtos/custom_rtos_attempt/ledblink_cmake/CMakeFiles 0
-.PHONY : CMakeFiles/ledblink.c.dir/rule
+.PHONY : CMakeFiles/kernel.dir/rule
 
 # Convenience name for target.
-ledblink.c: CMakeFiles/ledblink.c.dir/rule
-.PHONY : ledblink.c
+kernel: CMakeFiles/kernel.dir/rule
+.PHONY : kernel
 
 # clean rule for target.
-CMakeFiles/ledblink.c.dir/clean:
-	$(MAKE) -f CMakeFiles/ledblink.c.dir/build.make CMakeFiles/ledblink.c.dir/clean
-.PHONY : CMakeFiles/ledblink.c.dir/clean
+CMakeFiles/kernel.dir/clean:
+	$(MAKE) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/clean
+.PHONY : CMakeFiles/kernel.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/ledblink.c.dir/clean
+clean: CMakeFiles/kernel.dir/clean
 .PHONY : clean
 
 #=============================================================================

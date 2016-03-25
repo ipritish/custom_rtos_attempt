@@ -1,1 +1,1 @@
-/home/user/work/rtos/custom_rtos_attempt/ledblink_cmake/CMakeFiles/ledblink.c.dir
+/home/user/work/rtos/custom_rtos_attempt/ledblink_cmake/CMakeFiles/kernel.dir
