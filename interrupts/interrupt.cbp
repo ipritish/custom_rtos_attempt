@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="interrupt" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/user/work/rtos/custom_rtos_attempt/interrupts" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="kernel.elf">
+         <Option output="/home/user/work/rtos/custom_rtos_attempt/interrupts/kernel.elf" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/work/rtos/custom_rtos_attempt/interrupts" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/lib/gcc/arm-none-eabi/4.8.2/../../../arm-none-eabi/include" />
+            <Add directory="/usr/lib/gcc/arm-none-eabi/4.8.2/include" />
+            <Add directory="/usr/lib/gcc/arm-none-eabi/4.8.2/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 kernel.elf" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="kernel.elf/fast">
+         <Option output="/home/user/work/rtos/custom_rtos_attempt/interrupts/kernel.elf" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/user/work/rtos/custom_rtos_attempt/interrupts" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/lib/gcc/arm-none-eabi/4.8.2/../../../arm-none-eabi/include" />
+            <Add directory="/usr/lib/gcc/arm-none-eabi/4.8.2/include" />
+            <Add directory="/usr/lib/gcc/arm-none-eabi/4.8.2/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 kernel.elf/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/user/work/rtos/custom_rtos_attempt/interrupts" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/user/work/rtos/custom_rtos_attempt/interrupts/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/cstubs.c">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/ledblink.c">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-armtimer.c">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-gpio.c">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-interrupts.c">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-systimer.c">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/startup.c">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-armtimer.h">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-base.h">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-gpio.h">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-interrupts.h">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/rpi-systimer.h">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/start.S">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/interrupts/toolchain-arm-none-eabi-rpi.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
