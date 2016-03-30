@@ -1,0 +1,17 @@
+requirements
+
+how users wil add task to scheduler
+	1. create .h file with the intended function and .c file with functionality.
+	2. there will be global list in which function need to registered at start up.
+	3. function pointer need to added to the list at init which is defined in header file by user.
+
+how timer will work
+	1. systimer need to be configured at 10ms interrupt interval(after serious discussion :))
+	2. check if states need to be saved when interrupt occurs.
+
+scheduler functionality.
+	1. in main there will be conditions when to run the task.
+	2. those conditions/flags will be set in interrupt function.
+	
+next step:
+	1. look into what if interrupt occurs when task is running. look into context switch and how to achieve it in c.
