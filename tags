@@ -4,145 +4,497 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CMAKE_BINARY_DIR	interrupts/Makefile	/^CMAKE_BINARY_DIR = \/home\/user\/work\/rtos\/custom_rtos_attempt\/interrupts$/;"	m
+CMAKE_BINARY_DIR	ledblink_cmake/Makefile	/^CMAKE_BINARY_DIR = \/home\/user\/work\/rtos\/custom_rtos_attempt\/ledblink_cmake$/;"	m
+CMAKE_COMMAND	interrupts/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_COMMAND	ledblink_cmake/Makefile	/^CMAKE_COMMAND = \/usr\/bin\/cmake$/;"	m
+CMAKE_SOURCE_DIR	interrupts/Makefile	/^CMAKE_SOURCE_DIR = \/home\/user\/work\/rtos\/custom_rtos_attempt\/interrupts$/;"	m
+CMAKE_SOURCE_DIR	ledblink_cmake/Makefile	/^CMAKE_SOURCE_DIR = \/home\/user\/work\/rtos\/custom_rtos_attempt\/ledblink_cmake$/;"	m
+Control	interrupts/rpi-armtimer.h	/^    volatile uint32_t Control;$/;"	m	struct:__anon1
+Disable_Basic_IRQs	interrupts/rpi-interrupts.h	/^    volatile uint32_t Disable_Basic_IRQs;$/;"	m	struct:__anon4
+Disable_IRQs_1	interrupts/rpi-interrupts.h	/^    volatile uint32_t Disable_IRQs_1;$/;"	m	struct:__anon4
+Disable_IRQs_2	interrupts/rpi-interrupts.h	/^    volatile uint32_t Disable_IRQs_2;$/;"	m	struct:__anon4
+EQUALS	interrupts/Makefile	/^EQUALS = =$/;"	m
+EQUALS	ledblink_cmake/Makefile	/^EQUALS = =$/;"	m
+Enable_Basic_IRQs	interrupts/rpi-interrupts.h	/^    volatile uint32_t Enable_Basic_IRQs;$/;"	m	struct:__anon4
+Enable_IRQs_1	interrupts/rpi-interrupts.h	/^    volatile uint32_t Enable_IRQs_1;$/;"	m	struct:__anon4
+Enable_IRQs_2	interrupts/rpi-interrupts.h	/^    volatile uint32_t Enable_IRQs_2;$/;"	m	struct:__anon4
+FIQ_control	interrupts/rpi-interrupts.h	/^    volatile uint32_t FIQ_control;$/;"	m	struct:__anon4
+FreeRunningCounter	interrupts/rpi-armtimer.h	/^    volatile uint32_t FreeRunningCounter;$/;"	m	struct:__anon1
+GPAFEN0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPAFEN0;$/;"	m	struct:__anon2
+GPAFEN1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPAFEN1;$/;"	m	struct:__anon2
+GPAREN0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPAREN0;$/;"	m	struct:__anon2
+GPAREN1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPAREN1;$/;"	m	struct:__anon2
+GPCLR0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPCLR0;$/;"	m	struct:__anon2
+GPCLR1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPCLR1;$/;"	m	struct:__anon2
+GPEDS0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPEDS0;$/;"	m	struct:__anon2
+GPEDS1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPEDS1;$/;"	m	struct:__anon2
+GPFEN0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPFEN0;$/;"	m	struct:__anon2
+GPFEN1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPFEN1;$/;"	m	struct:__anon2
+GPFSEL0	interrupts/rpi-gpio.h	/^    rpi_reg_rw_t    GPFSEL0;$/;"	m	struct:__anon2
+GPFSEL1	interrupts/rpi-gpio.h	/^    rpi_reg_rw_t    GPFSEL1;$/;"	m	struct:__anon2
+GPFSEL2	interrupts/rpi-gpio.h	/^    rpi_reg_rw_t    GPFSEL2;$/;"	m	struct:__anon2
+GPFSEL3	interrupts/rpi-gpio.h	/^    rpi_reg_rw_t    GPFSEL3;$/;"	m	struct:__anon2
+GPFSEL4	interrupts/rpi-gpio.h	/^    rpi_reg_rw_t    GPFSEL4;$/;"	m	struct:__anon2
+GPFSEL5	interrupts/rpi-gpio.h	/^    rpi_reg_rw_t    GPFSEL5;$/;"	m	struct:__anon2
+GPHEN0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPHEN0;$/;"	m	struct:__anon2
+GPHEN1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPHEN1;$/;"	m	struct:__anon2
 GPIO3DATA	ledblink_for_lpc1343/lpcstartup.c	3;"	d	file:
 GPIO3DIR	ledblink_for_lpc1343/lpcstartup.c	4;"	d	file:
 GPIO_BASE	ledblink/ledblink.c	2;"	d	file:
 GPIO_BASE	ledblink/ledblink.c	4;"	d	file:
 GPIO_BASE	ledblink2/rpi_gpio.h	6;"	d
 GPIO_BASE	ledblink2/rpi_gpio.h	8;"	d
+GPIO_BASE	ledblink_cmake/rpi-gpio.h	6;"	d
+GPIO_BASE	ledblink_cmake/rpi-gpio.h	8;"	d
 GPIO_BASE	ledblink_with_init/rpi_gpio.h	6;"	d
 GPIO_BASE	ledblink_with_init/rpi_gpio.h	8;"	d
+GPIO_BASE	support_for_malloc/rpi-gpio.h	6;"	d
+GPIO_BASE	support_for_malloc/rpi-gpio.h	8;"	d
 GPIO_GPAFEN0	ledblink/ledblink.c	55;"	d	file:
 GPIO_GPAFEN0	ledblink2/rpi_gpio.h	59;"	d
+GPIO_GPAFEN0	ledblink_cmake/rpi-gpio.h	63;"	d
 GPIO_GPAFEN0	ledblink_with_init/rpi_gpio.h	59;"	d
+GPIO_GPAFEN0	support_for_malloc/rpi-gpio.h	63;"	d
 GPIO_GPAFEN1	ledblink/ledblink.c	56;"	d	file:
 GPIO_GPAFEN1	ledblink2/rpi_gpio.h	60;"	d
+GPIO_GPAFEN1	ledblink_cmake/rpi-gpio.h	64;"	d
 GPIO_GPAFEN1	ledblink_with_init/rpi_gpio.h	60;"	d
+GPIO_GPAFEN1	support_for_malloc/rpi-gpio.h	64;"	d
 GPIO_GPAREN0	ledblink/ledblink.c	52;"	d	file:
 GPIO_GPAREN0	ledblink2/rpi_gpio.h	56;"	d
+GPIO_GPAREN0	ledblink_cmake/rpi-gpio.h	60;"	d
 GPIO_GPAREN0	ledblink_with_init/rpi_gpio.h	56;"	d
+GPIO_GPAREN0	support_for_malloc/rpi-gpio.h	60;"	d
 GPIO_GPAREN1	ledblink/ledblink.c	53;"	d	file:
 GPIO_GPAREN1	ledblink2/rpi_gpio.h	57;"	d
+GPIO_GPAREN1	ledblink_cmake/rpi-gpio.h	61;"	d
 GPIO_GPAREN1	ledblink_with_init/rpi_gpio.h	57;"	d
+GPIO_GPAREN1	support_for_malloc/rpi-gpio.h	61;"	d
 GPIO_GPCLR0	ledblink/ledblink.c	31;"	d	file:
 GPIO_GPCLR0	ledblink2/rpi_gpio.h	35;"	d
+GPIO_GPCLR0	ledblink_cmake/rpi-gpio.h	39;"	d
 GPIO_GPCLR0	ledblink_with_init/rpi_gpio.h	35;"	d
+GPIO_GPCLR0	support_for_malloc/rpi-gpio.h	39;"	d
 GPIO_GPCLR1	ledblink/ledblink.c	32;"	d	file:
 GPIO_GPCLR1	ledblink2/rpi_gpio.h	36;"	d
+GPIO_GPCLR1	ledblink_cmake/rpi-gpio.h	40;"	d
 GPIO_GPCLR1	ledblink_with_init/rpi_gpio.h	36;"	d
+GPIO_GPCLR1	support_for_malloc/rpi-gpio.h	40;"	d
 GPIO_GPEDS0	ledblink/ledblink.c	37;"	d	file:
 GPIO_GPEDS0	ledblink2/rpi_gpio.h	41;"	d
+GPIO_GPEDS0	ledblink_cmake/rpi-gpio.h	45;"	d
 GPIO_GPEDS0	ledblink_with_init/rpi_gpio.h	41;"	d
+GPIO_GPEDS0	support_for_malloc/rpi-gpio.h	45;"	d
 GPIO_GPEDS1	ledblink/ledblink.c	38;"	d	file:
 GPIO_GPEDS1	ledblink2/rpi_gpio.h	42;"	d
+GPIO_GPEDS1	ledblink_cmake/rpi-gpio.h	46;"	d
 GPIO_GPEDS1	ledblink_with_init/rpi_gpio.h	42;"	d
+GPIO_GPEDS1	support_for_malloc/rpi-gpio.h	46;"	d
 GPIO_GPFEN0	ledblink/ledblink.c	43;"	d	file:
 GPIO_GPFEN0	ledblink2/rpi_gpio.h	47;"	d
+GPIO_GPFEN0	ledblink_cmake/rpi-gpio.h	51;"	d
 GPIO_GPFEN0	ledblink_with_init/rpi_gpio.h	47;"	d
+GPIO_GPFEN0	support_for_malloc/rpi-gpio.h	51;"	d
 GPIO_GPFEN1	ledblink/ledblink.c	44;"	d	file:
 GPIO_GPFEN1	ledblink2/rpi_gpio.h	48;"	d
+GPIO_GPFEN1	ledblink_cmake/rpi-gpio.h	52;"	d
 GPIO_GPFEN1	ledblink_with_init/rpi_gpio.h	48;"	d
+GPIO_GPFEN1	support_for_malloc/rpi-gpio.h	52;"	d
 GPIO_GPFSEL0	ledblink/ledblink.c	21;"	d	file:
 GPIO_GPFSEL0	ledblink2/rpi_gpio.h	25;"	d
+GPIO_GPFSEL0	ledblink_cmake/rpi-gpio.h	29;"	d
 GPIO_GPFSEL0	ledblink_with_init/rpi_gpio.h	25;"	d
+GPIO_GPFSEL0	support_for_malloc/rpi-gpio.h	29;"	d
 GPIO_GPFSEL1	ledblink/ledblink.c	22;"	d	file:
 GPIO_GPFSEL1	ledblink2/rpi_gpio.h	26;"	d
+GPIO_GPFSEL1	ledblink_cmake/rpi-gpio.h	30;"	d
 GPIO_GPFSEL1	ledblink_with_init/rpi_gpio.h	26;"	d
+GPIO_GPFSEL1	support_for_malloc/rpi-gpio.h	30;"	d
 GPIO_GPFSEL2	ledblink/ledblink.c	23;"	d	file:
 GPIO_GPFSEL2	ledblink2/rpi_gpio.h	27;"	d
+GPIO_GPFSEL2	ledblink_cmake/rpi-gpio.h	31;"	d
 GPIO_GPFSEL2	ledblink_with_init/rpi_gpio.h	27;"	d
+GPIO_GPFSEL2	support_for_malloc/rpi-gpio.h	31;"	d
 GPIO_GPFSEL3	ledblink/ledblink.c	24;"	d	file:
 GPIO_GPFSEL3	ledblink2/rpi_gpio.h	28;"	d
+GPIO_GPFSEL3	ledblink_cmake/rpi-gpio.h	32;"	d
 GPIO_GPFSEL3	ledblink_with_init/rpi_gpio.h	28;"	d
+GPIO_GPFSEL3	support_for_malloc/rpi-gpio.h	32;"	d
 GPIO_GPFSEL4	ledblink/ledblink.c	25;"	d	file:
 GPIO_GPFSEL4	ledblink2/rpi_gpio.h	29;"	d
+GPIO_GPFSEL4	ledblink_cmake/rpi-gpio.h	33;"	d
 GPIO_GPFSEL4	ledblink_with_init/rpi_gpio.h	29;"	d
+GPIO_GPFSEL4	support_for_malloc/rpi-gpio.h	33;"	d
 GPIO_GPFSEL5	ledblink/ledblink.c	26;"	d	file:
 GPIO_GPFSEL5	ledblink2/rpi_gpio.h	30;"	d
+GPIO_GPFSEL5	ledblink_cmake/rpi-gpio.h	34;"	d
 GPIO_GPFSEL5	ledblink_with_init/rpi_gpio.h	30;"	d
+GPIO_GPFSEL5	support_for_malloc/rpi-gpio.h	34;"	d
 GPIO_GPHEN0	ledblink/ledblink.c	46;"	d	file:
 GPIO_GPHEN0	ledblink2/rpi_gpio.h	50;"	d
+GPIO_GPHEN0	ledblink_cmake/rpi-gpio.h	54;"	d
 GPIO_GPHEN0	ledblink_with_init/rpi_gpio.h	50;"	d
+GPIO_GPHEN0	support_for_malloc/rpi-gpio.h	54;"	d
 GPIO_GPHEN1	ledblink/ledblink.c	47;"	d	file:
 GPIO_GPHEN1	ledblink2/rpi_gpio.h	51;"	d
+GPIO_GPHEN1	ledblink_cmake/rpi-gpio.h	55;"	d
 GPIO_GPHEN1	ledblink_with_init/rpi_gpio.h	51;"	d
+GPIO_GPHEN1	support_for_malloc/rpi-gpio.h	55;"	d
 GPIO_GPLEN0	ledblink/ledblink.c	49;"	d	file:
 GPIO_GPLEN0	ledblink2/rpi_gpio.h	53;"	d
+GPIO_GPLEN0	ledblink_cmake/rpi-gpio.h	57;"	d
 GPIO_GPLEN0	ledblink_with_init/rpi_gpio.h	53;"	d
+GPIO_GPLEN0	support_for_malloc/rpi-gpio.h	57;"	d
 GPIO_GPLEN1	ledblink/ledblink.c	50;"	d	file:
 GPIO_GPLEN1	ledblink2/rpi_gpio.h	54;"	d
+GPIO_GPLEN1	ledblink_cmake/rpi-gpio.h	58;"	d
 GPIO_GPLEN1	ledblink_with_init/rpi_gpio.h	54;"	d
+GPIO_GPLEN1	support_for_malloc/rpi-gpio.h	58;"	d
 GPIO_GPLEV0	ledblink/ledblink.c	34;"	d	file:
 GPIO_GPLEV0	ledblink2/rpi_gpio.h	38;"	d
+GPIO_GPLEV0	ledblink_cmake/rpi-gpio.h	42;"	d
 GPIO_GPLEV0	ledblink_with_init/rpi_gpio.h	38;"	d
+GPIO_GPLEV0	support_for_malloc/rpi-gpio.h	42;"	d
 GPIO_GPLEV1	ledblink/ledblink.c	35;"	d	file:
 GPIO_GPLEV1	ledblink2/rpi_gpio.h	39;"	d
+GPIO_GPLEV1	ledblink_cmake/rpi-gpio.h	43;"	d
 GPIO_GPLEV1	ledblink_with_init/rpi_gpio.h	39;"	d
+GPIO_GPLEV1	support_for_malloc/rpi-gpio.h	43;"	d
 GPIO_GPPUD	ledblink/ledblink.c	58;"	d	file:
 GPIO_GPPUD	ledblink2/rpi_gpio.h	62;"	d
+GPIO_GPPUD	ledblink_cmake/rpi-gpio.h	66;"	d
 GPIO_GPPUD	ledblink_with_init/rpi_gpio.h	62;"	d
+GPIO_GPPUD	support_for_malloc/rpi-gpio.h	66;"	d
 GPIO_GPPUDCLK0	ledblink/ledblink.c	59;"	d	file:
 GPIO_GPPUDCLK0	ledblink2/rpi_gpio.h	63;"	d
+GPIO_GPPUDCLK0	ledblink_cmake/rpi-gpio.h	67;"	d
 GPIO_GPPUDCLK0	ledblink_with_init/rpi_gpio.h	63;"	d
+GPIO_GPPUDCLK0	support_for_malloc/rpi-gpio.h	67;"	d
 GPIO_GPPUDCLK1	ledblink/ledblink.c	60;"	d	file:
 GPIO_GPPUDCLK1	ledblink2/rpi_gpio.h	64;"	d
+GPIO_GPPUDCLK1	ledblink_cmake/rpi-gpio.h	68;"	d
 GPIO_GPPUDCLK1	ledblink_with_init/rpi_gpio.h	64;"	d
+GPIO_GPPUDCLK1	support_for_malloc/rpi-gpio.h	68;"	d
 GPIO_GPREN0	ledblink/ledblink.c	40;"	d	file:
 GPIO_GPREN0	ledblink2/rpi_gpio.h	44;"	d
+GPIO_GPREN0	ledblink_cmake/rpi-gpio.h	48;"	d
 GPIO_GPREN0	ledblink_with_init/rpi_gpio.h	44;"	d
+GPIO_GPREN0	support_for_malloc/rpi-gpio.h	48;"	d
 GPIO_GPREN1	ledblink/ledblink.c	41;"	d	file:
 GPIO_GPREN1	ledblink2/rpi_gpio.h	45;"	d
+GPIO_GPREN1	ledblink_cmake/rpi-gpio.h	49;"	d
 GPIO_GPREN1	ledblink_with_init/rpi_gpio.h	45;"	d
+GPIO_GPREN1	support_for_malloc/rpi-gpio.h	49;"	d
 GPIO_GPSET0	ledblink/ledblink.c	28;"	d	file:
 GPIO_GPSET0	ledblink2/rpi_gpio.h	32;"	d
+GPIO_GPSET0	ledblink_cmake/rpi-gpio.h	36;"	d
 GPIO_GPSET0	ledblink_with_init/rpi_gpio.h	32;"	d
+GPIO_GPSET0	support_for_malloc/rpi-gpio.h	36;"	d
 GPIO_GPSET1	ledblink/ledblink.c	29;"	d	file:
 GPIO_GPSET1	ledblink2/rpi_gpio.h	33;"	d
+GPIO_GPSET1	ledblink_cmake/rpi-gpio.h	37;"	d
 GPIO_GPSET1	ledblink_with_init/rpi_gpio.h	33;"	d
+GPIO_GPSET1	support_for_malloc/rpi-gpio.h	37;"	d
+GPLEN0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPLEN0;$/;"	m	struct:__anon2
+GPLEN1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPLEN1;$/;"	m	struct:__anon2
+GPLEV0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPLEV0;$/;"	m	struct:__anon2
+GPLEV1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPLEV1;$/;"	m	struct:__anon2
+GPPUD	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPPUD;$/;"	m	struct:__anon2
+GPPUDCLK0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPPUDCLK0;$/;"	m	struct:__anon2
+GPPUDCLK1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPPUDCLK1;$/;"	m	struct:__anon2
+GPREN0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPREN0;$/;"	m	struct:__anon2
+GPREN1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPREN1;$/;"	m	struct:__anon2
+GPSET0	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPSET0;$/;"	m	struct:__anon2
+GPSET1	interrupts/rpi-gpio.h	/^    rpi_reg_wo_t    GPSET1;$/;"	m	struct:__anon2
+IRQClear	interrupts/rpi-armtimer.h	/^    volatile uint32_t IRQClear;$/;"	m	struct:__anon1
+IRQ_basic_pending	interrupts/rpi-interrupts.h	/^    volatile uint32_t IRQ_basic_pending;$/;"	m	struct:__anon4
+IRQ_pending_1	interrupts/rpi-interrupts.h	/^    volatile uint32_t IRQ_pending_1;$/;"	m	struct:__anon4
+IRQ_pending_2	interrupts/rpi-interrupts.h	/^    volatile uint32_t IRQ_pending_2;$/;"	m	struct:__anon4
+LED_GPCLR	interrupts/rpi-gpio.h	13;"	d
+LED_GPCLR	interrupts/rpi-gpio.h	21;"	d
 LED_GPCLR	ledblink/ledblink.c	11;"	d	file:
 LED_GPCLR	ledblink/ledblink.c	17;"	d	file:
 LED_GPCLR	ledblink2/rpi_gpio.h	15;"	d
 LED_GPCLR	ledblink2/rpi_gpio.h	21;"	d
+LED_GPCLR	ledblink_cmake/rpi-gpio.h	15;"	d
+LED_GPCLR	ledblink_cmake/rpi-gpio.h	23;"	d
 LED_GPCLR	ledblink_with_init/rpi_gpio.h	15;"	d
 LED_GPCLR	ledblink_with_init/rpi_gpio.h	21;"	d
+LED_GPCLR	support_for_malloc/rpi-gpio.h	15;"	d
+LED_GPCLR	support_for_malloc/rpi-gpio.h	23;"	d
+LED_GPFBIT	interrupts/rpi-gpio.h	11;"	d
+LED_GPFBIT	interrupts/rpi-gpio.h	19;"	d
 LED_GPFBIT	ledblink/ledblink.c	15;"	d	file:
 LED_GPFBIT	ledblink/ledblink.c	9;"	d	file:
 LED_GPFBIT	ledblink2/rpi_gpio.h	13;"	d
 LED_GPFBIT	ledblink2/rpi_gpio.h	19;"	d
+LED_GPFBIT	ledblink_cmake/rpi-gpio.h	13;"	d
+LED_GPFBIT	ledblink_cmake/rpi-gpio.h	21;"	d
 LED_GPFBIT	ledblink_with_init/rpi_gpio.h	13;"	d
 LED_GPFBIT	ledblink_with_init/rpi_gpio.h	19;"	d
+LED_GPFBIT	support_for_malloc/rpi-gpio.h	13;"	d
+LED_GPFBIT	support_for_malloc/rpi-gpio.h	21;"	d
+LED_GPFSEL	interrupts/rpi-gpio.h	10;"	d
+LED_GPFSEL	interrupts/rpi-gpio.h	18;"	d
 LED_GPFSEL	ledblink/ledblink.c	14;"	d	file:
 LED_GPFSEL	ledblink/ledblink.c	8;"	d	file:
 LED_GPFSEL	ledblink2/rpi_gpio.h	12;"	d
 LED_GPFSEL	ledblink2/rpi_gpio.h	18;"	d
+LED_GPFSEL	ledblink_cmake/rpi-gpio.h	12;"	d
+LED_GPFSEL	ledblink_cmake/rpi-gpio.h	20;"	d
 LED_GPFSEL	ledblink_with_init/rpi_gpio.h	12;"	d
 LED_GPFSEL	ledblink_with_init/rpi_gpio.h	18;"	d
+LED_GPFSEL	support_for_malloc/rpi-gpio.h	12;"	d
+LED_GPFSEL	support_for_malloc/rpi-gpio.h	20;"	d
+LED_GPIO_BIT	interrupts/rpi-gpio.h	14;"	d
+LED_GPIO_BIT	interrupts/rpi-gpio.h	22;"	d
 LED_GPIO_BIT	ledblink/ledblink.c	12;"	d	file:
 LED_GPIO_BIT	ledblink/ledblink.c	18;"	d	file:
 LED_GPIO_BIT	ledblink2/rpi_gpio.h	16;"	d
 LED_GPIO_BIT	ledblink2/rpi_gpio.h	22;"	d
+LED_GPIO_BIT	ledblink_cmake/rpi-gpio.h	16;"	d
+LED_GPIO_BIT	ledblink_cmake/rpi-gpio.h	24;"	d
 LED_GPIO_BIT	ledblink_with_init/rpi_gpio.h	16;"	d
 LED_GPIO_BIT	ledblink_with_init/rpi_gpio.h	22;"	d
+LED_GPIO_BIT	support_for_malloc/rpi-gpio.h	16;"	d
+LED_GPIO_BIT	support_for_malloc/rpi-gpio.h	24;"	d
+LED_GPSET	interrupts/rpi-gpio.h	12;"	d
+LED_GPSET	interrupts/rpi-gpio.h	20;"	d
 LED_GPSET	ledblink/ledblink.c	10;"	d	file:
 LED_GPSET	ledblink/ledblink.c	16;"	d	file:
 LED_GPSET	ledblink2/rpi_gpio.h	14;"	d
 LED_GPSET	ledblink2/rpi_gpio.h	20;"	d
+LED_GPSET	ledblink_cmake/rpi-gpio.h	14;"	d
+LED_GPSET	ledblink_cmake/rpi-gpio.h	22;"	d
 LED_GPSET	ledblink_with_init/rpi_gpio.h	14;"	d
 LED_GPSET	ledblink_with_init/rpi_gpio.h	20;"	d
+LED_GPSET	support_for_malloc/rpi-gpio.h	14;"	d
+LED_GPSET	support_for_malloc/rpi-gpio.h	22;"	d
+LED_OFF	interrupts/rpi-gpio.h	16;"	d
+LED_OFF	interrupts/rpi-gpio.h	24;"	d
+LED_OFF	ledblink_cmake/rpi-gpio.h	18;"	d
+LED_OFF	ledblink_cmake/rpi-gpio.h	26;"	d
+LED_OFF	support_for_malloc/rpi-gpio.h	18;"	d
+LED_OFF	support_for_malloc/rpi-gpio.h	26;"	d
+LED_ON	interrupts/rpi-gpio.h	15;"	d
+LED_ON	interrupts/rpi-gpio.h	23;"	d
+LED_ON	ledblink_cmake/rpi-gpio.h	17;"	d
+LED_ON	ledblink_cmake/rpi-gpio.h	25;"	d
+LED_ON	support_for_malloc/rpi-gpio.h	17;"	d
+LED_ON	support_for_malloc/rpi-gpio.h	25;"	d
+Load	interrupts/rpi-armtimer.h	/^    volatile uint32_t Load;$/;"	m	struct:__anon1
+MaskedIRQ	interrupts/rpi-armtimer.h	/^    volatile uint32_t MaskedIRQ;$/;"	m	struct:__anon1
+PERIPHERAL_BASE	interrupts/rpi-base.h	7;"	d
+PERIPHERAL_BASE	interrupts/rpi-base.h	9;"	d
+PreDivider	interrupts/rpi-armtimer.h	/^    volatile uint32_t PreDivider;$/;"	m	struct:__anon1
+RAWIRQ	interrupts/rpi-armtimer.h	/^    volatile uint32_t RAWIRQ;$/;"	m	struct:__anon1
+RM	interrupts/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RM	ledblink_cmake/Makefile	/^RM = \/usr\/bin\/cmake -E remove -f$/;"	m
+RPI_ARMTIMER_BASE	interrupts/rpi-armtimer.h	10;"	d
+RPI_ARMTIMER_CTRL_23BIT	interrupts/rpi-armtimer.h	13;"	d
+RPI_ARMTIMER_CTRL_DISABLE	interrupts/rpi-armtimer.h	25;"	d
+RPI_ARMTIMER_CTRL_ENABLE	interrupts/rpi-armtimer.h	24;"	d
+RPI_ARMTIMER_CTRL_INT_DISABLE	interrupts/rpi-armtimer.h	21;"	d
+RPI_ARMTIMER_CTRL_INT_ENABLE	interrupts/rpi-armtimer.h	20;"	d
+RPI_ARMTIMER_CTRL_PRESCALE_1	interrupts/rpi-armtimer.h	15;"	d
+RPI_ARMTIMER_CTRL_PRESCALE_16	interrupts/rpi-armtimer.h	16;"	d
+RPI_ARMTIMER_CTRL_PRESCALE_256	interrupts/rpi-armtimer.h	17;"	d
+RPI_ARMTIMER_H	interrupts/rpi-armtimer.h	2;"	d
+RPI_ArmTimerInit	interrupts/rpi-armtimer.c	/^void RPI_ArmTimerInit(void)$/;"	f
+RPI_BASE_H	interrupts/rpi-base.h	2;"	d
+RPI_BASE_H	ledblink_cmake/rpi-base.h	2;"	d
+RPI_BASIC_ACCESS_ERROR_0_IRQ	interrupts/rpi-interrupts.h	23;"	d
+RPI_BASIC_ACCESS_ERROR_1_IRQ	interrupts/rpi-interrupts.h	22;"	d
+RPI_BASIC_ARM_DOORBELL_0_IRQ	interrupts/rpi-interrupts.h	18;"	d
+RPI_BASIC_ARM_DOORBELL_1_IRQ	interrupts/rpi-interrupts.h	19;"	d
+RPI_BASIC_ARM_MAILBOX_IRQ	interrupts/rpi-interrupts.h	17;"	d
+RPI_BASIC_ARM_TIMER_IRQ	interrupts/rpi-interrupts.h	16;"	d
+RPI_BASIC_GPU_0_HALTED_IRQ	interrupts/rpi-interrupts.h	20;"	d
+RPI_BASIC_GPU_1_HALTED_IRQ	interrupts/rpi-interrupts.h	21;"	d
+RPI_GPIO_BASE	interrupts/rpi-gpio.h	7;"	d
+RPI_GPIO_FSEL0_00_INPUT	interrupts/rpi-gpio.h	28;"	d
+RPI_GPIO_FSEL0_00_OUTPUT	interrupts/rpi-gpio.h	29;"	d
+RPI_GPIO_FSEL0_01_INPUT	interrupts/rpi-gpio.h	31;"	d
+RPI_GPIO_FSEL0_01_OUTPUT	interrupts/rpi-gpio.h	32;"	d
+RPI_GPIO_FSEL0_02_INPUT	interrupts/rpi-gpio.h	34;"	d
+RPI_GPIO_FSEL0_02_OUTPUT	interrupts/rpi-gpio.h	35;"	d
+RPI_GPIO_FSEL0_03_INPUT	interrupts/rpi-gpio.h	37;"	d
+RPI_GPIO_FSEL0_03_OUTPUT	interrupts/rpi-gpio.h	38;"	d
+RPI_GPIO_FSEL0_04_INPUT	interrupts/rpi-gpio.h	40;"	d
+RPI_GPIO_FSEL0_04_OUTPUT	interrupts/rpi-gpio.h	41;"	d
+RPI_GPIO_FSEL0_05_INPUT	interrupts/rpi-gpio.h	43;"	d
+RPI_GPIO_FSEL0_05_OUTPUT	interrupts/rpi-gpio.h	44;"	d
+RPI_GPIO_FSEL0_06_INPUT	interrupts/rpi-gpio.h	46;"	d
+RPI_GPIO_FSEL0_06_OUTPUT	interrupts/rpi-gpio.h	47;"	d
+RPI_GPIO_FSEL0_07_INPUT	interrupts/rpi-gpio.h	49;"	d
+RPI_GPIO_FSEL0_07_OUTPUT	interrupts/rpi-gpio.h	50;"	d
+RPI_GPIO_FSEL0_08_INPUT	interrupts/rpi-gpio.h	52;"	d
+RPI_GPIO_FSEL0_08_OUTPUT	interrupts/rpi-gpio.h	53;"	d
+RPI_GPIO_FSEL0_09_INPUT	interrupts/rpi-gpio.h	55;"	d
+RPI_GPIO_FSEL0_09_OUTPUT	interrupts/rpi-gpio.h	56;"	d
+RPI_GPIO_H	interrupts/rpi-gpio.h	2;"	d
 RPI_GPIO_H	ledblink2/rpi_gpio.h	2;"	d
+RPI_GPIO_H	ledblink_cmake/rpi-gpio.h	2;"	d
 RPI_GPIO_H	ledblink_with_init/rpi_gpio.h	2;"	d
+RPI_GPIO_H	support_for_malloc/rpi-gpio.h	2;"	d
+RPI_GetArmTimer	interrupts/rpi-armtimer.c	/^rpi_arm_timer_t* RPI_GetArmTimer(void)$/;"	f
+RPI_GetGpio	interrupts/rpi-gpio.c	/^rpi_gpio_t* RPI_GetGpio(void)$/;"	f
+RPI_GetIrqController	interrupts/rpi-interrupts.c	/^rpi_irq_controller_t* RPI_GetIrqController( void )$/;"	f
+RPI_GetSystemTimer	interrupts/rpi-systimer.c	/^rpi_sys_timer_t* RPI_GetSystemTimer(void)$/;"	f
+RPI_GetSystemTimer	ledblink_cmake/rpi-systimer.c	/^rpi_sys_timer_t* RPI_GetSystemTimer(void)$/;"	f
+RPI_GpioInit	interrupts/rpi-gpio.c	/^void RPI_GpioInit(void)$/;"	f
+RPI_INTERRUPTS_H	interrupts/rpi-interrupts.h	2;"	d
+RPI_INTERRUPT_CONTROLLER_BASE	interrupts/rpi-interrupts.h	12;"	d
+RPI_SYSTIMER_BASE	interrupts/rpi-systimer.h	8;"	d
+RPI_SYSTIMER_BASE	ledblink_cmake/rpi-systimer.h	11;"	d
+RPI_SYSTIMER_BASE	ledblink_cmake/rpi-systimer.h	9;"	d
+RPI_SYSTIMER_H	interrupts/rpi-systimer.h	2;"	d
+RPI_SYSTIMER_H	ledblink_cmake/rpi-systimer.h	2;"	d
+RPI_WaitMicroSeconds	interrupts/rpi-systimer.c	/^void RPI_WaitMicroSeconds( uint32_t us )$/;"	f
+RPI_WaitMicroSeconds	ledblink_cmake/rpi-systimer.c	/^void RPI_WaitMicroSeconds( uint32_t us )$/;"	f
+Reload	interrupts/rpi-armtimer.h	/^    volatile uint32_t Reload;$/;"	m	struct:__anon1
+Reserved0	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved0;$/;"	m	struct:__anon2
+Reserved1	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved1;$/;"	m	struct:__anon2
+Reserved10	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved10;$/;"	m	struct:__anon2
+Reserved11	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved11;$/;"	m	struct:__anon2
+Reserved2	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved2;$/;"	m	struct:__anon2
+Reserved3	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved3;$/;"	m	struct:__anon2
+Reserved4	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved4;$/;"	m	struct:__anon2
+Reserved5	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved5;$/;"	m	struct:__anon2
+Reserved6	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved6;$/;"	m	struct:__anon2
+Reserved7	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved7;$/;"	m	struct:__anon2
+Reserved8	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved8;$/;"	m	struct:__anon2
+Reserved9	interrupts/rpi-gpio.h	/^    rpi_reg_ro_t    Reserved9;$/;"	m	struct:__anon2
+SHELL	interrupts/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	ledblink_cmake/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SUFFIXES	interrupts/Makefile	/^SUFFIXES =$/;"	m
+SUFFIXES	ledblink_cmake/Makefile	/^SUFFIXES =$/;"	m
+Value	interrupts/rpi-armtimer.h	/^    volatile uint32_t Value;$/;"	m	struct:__anon1
+__env	interrupts/cstubs.c	/^char *__env[1] = {0};$/;"	v
+__env	ledblink_cmake/cstubs.c	/^char *__env[1] = {0};$/;"	v
+_cstartup	interrupts/startup.c	/^void _cstartup( unsigned int r0, unsigned int r1, unsigned int r2 )$/;"	f
+_cstartup	ledblink_cmake/startup.c	/^void _cstartup( unsigned int r0, unsigned int r1, unsigned int r2 )$/;"	f
 _cstartup	ledblink_with_init/startup.c	/^void _cstartup( unsigned int r0, unsigned int r1, unsigned int r2 )$/;"	f
+_cstartup	support_for_malloc/startup.c	/^void _cstartup( unsigned int r0, unsigned int r1, unsigned int r2 )$/;"	f
+_data_abort_vector_h	interrupts/start.S	/^_data_abort_vector_h:               .word   data_abort_vector$/;"	l
+_enable_interrupts	interrupts/start.S	/^_enable_interrupts:$/;"	l
+_exit	interrupts/cstubs.c	/^void _exit( int status )$/;"	f
+_exit	ledblink_cmake/cstubs.c	/^void _exit( int status )$/;"	f
+_fast_interrupt_vector_h	interrupts/start.S	/^_fast_interrupt_vector_h:           .word   fast_interrupt_vector$/;"	l
+_get_stack_pointer	interrupts/start.S	/^_get_stack_pointer:$/;"	l
+_get_stack_pointer	ledblink_cmake/start.S	/^_get_stack_pointer:$/;"	l
 _get_stack_pointer	ledblink_with_init/start.S	/^_get_stack_pointer:$/;"	l
+_get_stack_pointer	support_for_malloc/start.S	/^_get_stack_pointer:$/;"	l
+_inf_loop	interrupts/start.S	/^_inf_loop:$/;"	l
+_inf_loop	ledblink_cmake/start.S	/^_inf_loop:$/;"	l
 _inf_loop	ledblink_with_init/start.S	/^_inf_loop:$/;"	l
+_inf_loop	support_for_malloc/start.S	/^_inf_loop:$/;"	l
+_interrupt_vector_h	interrupts/start.S	/^_interrupt_vector_h:                .word   interrupt_vector$/;"	l
+_prefetch_abort_vector_h	interrupts/start.S	/^_prefetch_abort_vector_h:           .word   prefetch_abort_vector$/;"	l
+_reset_	interrupts/start.S	/^_reset_:$/;"	l
+_reset_h	interrupts/start.S	/^_reset_h:                           .word   _reset_$/;"	l
+_sbrk	interrupts/cstubs.c	/^caddr_t _sbrk( int incr )$/;"	f
+_sbrk	ledblink_cmake/cstubs.c	/^caddr_t _sbrk( int incr )$/;"	f
+_sbrk	support_for_malloc/cstubs.c	/^caddr_t _sbrk( int incr )$/;"	f
+_software_interrupt_vector_h	interrupts/start.S	/^_software_interrupt_vector_h:       .word   software_interrupt_vector$/;"	l
+_start	interrupts/start.S	/^_start:$/;"	l
+_start	ledblink_cmake/start.S	/^_start:$/;"	l
 _start	ledblink_with_init/start.S	/^_start:$/;"	l
+_start	support_for_malloc/start.S	/^_start:$/;"	l
+_undefined_instruction_vector_h	interrupts/start.S	/^_undefined_instruction_vector_h:    .word   undefined_instruction_vector$/;"	l
+_unused_handler_h	interrupts/start.S	/^_unused_handler_h:                  .word   _reset_$/;"	l
+close	interrupts/cstubs.c	/^int close( int file )$/;"	f
+close	ledblink_cmake/cstubs.c	/^int close( int file )$/;"	f
+compare0	interrupts/rpi-systimer.h	/^    volatile uint32_t compare0;$/;"	m	struct:__anon3
+compare0	ledblink_cmake/rpi-systimer.h	/^    volatile uint32_t compare0;$/;"	m	struct:__anon5
+compare1	interrupts/rpi-systimer.h	/^    volatile uint32_t compare1;$/;"	m	struct:__anon3
+compare1	ledblink_cmake/rpi-systimer.h	/^    volatile uint32_t compare1;$/;"	m	struct:__anon5
+compare2	interrupts/rpi-systimer.h	/^    volatile uint32_t compare2;$/;"	m	struct:__anon3
+compare2	ledblink_cmake/rpi-systimer.h	/^    volatile uint32_t compare2;$/;"	m	struct:__anon5
+compare3	interrupts/rpi-systimer.h	/^    volatile uint32_t compare3;$/;"	m	struct:__anon3
+compare3	ledblink_cmake/rpi-systimer.h	/^    volatile uint32_t compare3;$/;"	m	struct:__anon5
+control_status	interrupts/rpi-systimer.h	/^    volatile uint32_t control_status;$/;"	m	struct:__anon3
+control_status	ledblink_cmake/rpi-systimer.h	/^    volatile uint32_t control_status;$/;"	m	struct:__anon5
+counter_hi	interrupts/rpi-systimer.h	/^    volatile uint32_t counter_hi;$/;"	m	struct:__anon3
+counter_hi	ledblink_cmake/rpi-systimer.h	/^    volatile uint32_t counter_hi;$/;"	m	struct:__anon5
+counter_lo	interrupts/rpi-systimer.h	/^    volatile uint32_t counter_lo;$/;"	m	struct:__anon3
+counter_lo	ledblink_cmake/rpi-systimer.h	/^    volatile uint32_t counter_lo;$/;"	m	struct:__anon5
+data_abort_vector	interrupts/rpi-interrupts.c	/^void __attribute__((interrupt("ABORT"))) data_abort_vector(void)$/;"	f
+environ	interrupts/cstubs.c	/^char **environ = __env;$/;"	v
+environ	ledblink_cmake/cstubs.c	/^char **environ = __env;$/;"	v
+errno	interrupts/cstubs.c	2;"	d	file:
+errno	ledblink_cmake/cstubs.c	2;"	d	file:
+execve	interrupts/cstubs.c	/^int execve( char *name, char **argv, char **env )$/;"	f
+execve	ledblink_cmake/cstubs.c	/^int execve( char *name, char **argv, char **env )$/;"	f
+fast_interrupt_vector	interrupts/rpi-interrupts.c	/^void __attribute__((interrupt("FIQ"))) fast_interrupt_vector(void)$/;"	f
+fork	interrupts/cstubs.c	/^int fork( void )$/;"	f
+fork	ledblink_cmake/cstubs.c	/^int fork( void )$/;"	f
+fstat	interrupts/cstubs.c	/^int fstat( int file, struct stat *st )$/;"	f
+fstat	ledblink_cmake/cstubs.c	/^int fstat( int file, struct stat *st )$/;"	f
+getpid	interrupts/cstubs.c	/^int getpid( void )$/;"	f
+getpid	ledblink_cmake/cstubs.c	/^int getpid( void )$/;"	f
 gpio	ledblink/ledblink.c	/^volatile unsigned int* gpio;$/;"	v
 gpio	ledblink2/ledblink.c	/^volatile unsigned int* gpio;$/;"	v
+gpio	ledblink_cmake/ledblink.c	/^volatile unsigned int* gpio = (unsigned int*)GPIO_BASE;$/;"	v
 gpio	ledblink_with_init/ledblink.c	/^volatile unsigned int* gpio = (unsigned int*)GPIO_BASE;$/;"	v
+gpio	support_for_malloc/ledblink.c	/^volatile unsigned int* gpio = (unsigned int*)GPIO_BASE;$/;"	v
+interrupt_vector	interrupts/rpi-interrupts.c	/^void __attribute__((interrupt("IRQ"))) interrupt_vector(void)$/;"	f
+isatty	interrupts/cstubs.c	/^int isatty(int file)$/;"	f
+isatty	ledblink_cmake/cstubs.c	/^int isatty(int file)$/;"	f
+kernel_main	interrupts/ledblink.c	/^void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )$/;"	f
+kernel_main	ledblink_cmake/ledblink.c	/^void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )$/;"	f
 kernel_main	ledblink_with_init/ledblink.c	/^int kernel_main(unsigned int r0, unsigned int r1, unsigned int r2)$/;"	f
+kernel_main	support_for_malloc/ledblink.c	/^void kernel_main( unsigned int r0, unsigned int r1, unsigned int atags )$/;"	f
+kill	interrupts/cstubs.c	/^int kill( int pid, int sig )$/;"	f
+kill	ledblink_cmake/cstubs.c	/^int kill( int pid, int sig )$/;"	f
+link	interrupts/cstubs.c	/^int link( char *old, char *new )$/;"	f
+link	ledblink_cmake/cstubs.c	/^int link( char *old, char *new )$/;"	f
+lseek	interrupts/cstubs.c	/^int lseek(int file, int ptr, int dir)$/;"	f
+lseek	ledblink_cmake/cstubs.c	/^int lseek(int file, int ptr, int dir)$/;"	f
 main	ledblink/ledblink.c	/^int main(void)$/;"	f
 main	ledblink2/ledblink.c	/^int main(void)$/;"	f
 main	ledblink_for_lpc1343/lpcstartup.c	/^int main()$/;"	f
+open	interrupts/cstubs.c	/^int open( const char *name, int flags, int mode )$/;"	f
+open	ledblink_cmake/cstubs.c	/^int open( const char *name, int flags, int mode )$/;"	f
+outbyte	interrupts/cstubs.c	/^void outbyte( char b )$/;"	f
+outbyte	ledblink_cmake/cstubs.c	/^void outbyte( char b )$/;"	f
+prefetch_abort_vector	interrupts/rpi-interrupts.c	/^void __attribute__((interrupt("ABORT"))) prefetch_abort_vector(void)$/;"	f
+read	interrupts/cstubs.c	/^int read( int file, char *ptr, int len )$/;"	f
+read	ledblink_cmake/cstubs.c	/^int read( int file, char *ptr, int len )$/;"	f
+reset_vector	interrupts/rpi-interrupts.c	/^void __attribute__((interrupt("ABORT"))) reset_vector(void)$/;"	f
+rpiArmTimer	interrupts/rpi-armtimer.c	/^static rpi_arm_timer_t* rpiArmTimer = (rpi_arm_timer_t*)RPI_ARMTIMER_BASE;$/;"	v	file:
+rpiGpio	interrupts/rpi-gpio.c	/^static rpi_gpio_t* rpiGpio = (rpi_gpio_t*)RPI_GPIO_BASE;$/;"	v	file:
+rpiIRQController	interrupts/rpi-interrupts.c	/^static rpi_irq_controller_t* rpiIRQController =$/;"	v	file:
+rpiSystemTimer	interrupts/rpi-systimer.c	/^static rpi_sys_timer_t* rpiSystemTimer = (rpi_sys_timer_t*)RPI_SYSTIMER_BASE;$/;"	v	file:
+rpiSystemTimer	ledblink_cmake/rpi-systimer.c	/^static rpi_sys_timer_t* rpiSystemTimer = (rpi_sys_timer_t*)RPI_SYSTIMER_BASE;$/;"	v	file:
+rpi_arm_timer_t	interrupts/rpi-armtimer.h	/^    } rpi_arm_timer_t;$/;"	t	typeref:struct:__anon1
+rpi_gpio_t	interrupts/rpi-gpio.h	/^} rpi_gpio_t;$/;"	t	typeref:struct:__anon2
+rpi_irq_controller_t	interrupts/rpi-interrupts.h	/^    } rpi_irq_controller_t;$/;"	t	typeref:struct:__anon4
+rpi_reg_ro_t	interrupts/rpi-base.h	/^typedef volatile const uint32_t rpi_reg_ro_t;$/;"	t
+rpi_reg_ro_t	ledblink_cmake/rpi-base.h	/^typedef volatile const uint32_t rpi_reg_ro_t;$/;"	t
+rpi_reg_rw_t	interrupts/rpi-base.h	/^typedef volatile uint32_t rpi_reg_rw_t;$/;"	t
+rpi_reg_rw_t	ledblink_cmake/rpi-base.h	/^typedef volatile uint32_t rpi_reg_rw_t;$/;"	t
+rpi_reg_wo_t	interrupts/rpi-base.h	/^typedef volatile uint32_t rpi_reg_wo_t;$/;"	t
+rpi_sys_timer_t	interrupts/rpi-systimer.h	/^    } rpi_sys_timer_t;$/;"	t	typeref:struct:__anon3
+rpi_sys_timer_t	ledblink_cmake/rpi-systimer.h	/^    } rpi_sys_timer_t;$/;"	t	typeref:struct:__anon5
+rpi_wreg_ro_t	interrupts/rpi-base.h	/^typedef volatile const uint64_t rpi_wreg_ro_t;$/;"	t
+rpi_wreg_ro_t	ledblink_cmake/rpi-base.h	/^typedef volatile const uint64_t rpi_wreg_ro_t;$/;"	t
+rpi_wreg_rw_t	interrupts/rpi-base.h	/^typedef volatile uint64_t rpi_wreg_rw_t;$/;"	t
+rpi_wreg_rw_t	ledblink_cmake/rpi-base.h	/^typedef volatile uint64_t rpi_wreg_rw_t;$/;"	t
+software_interrupt_vector	interrupts/rpi-interrupts.c	/^void __attribute__((interrupt("SWI"))) software_interrupt_vector(void)$/;"	f
+stat	interrupts/cstubs.c	/^int stat( const char *file, struct stat *st )$/;"	f
+stat	ledblink_cmake/cstubs.c	/^int stat( const char *file, struct stat *st )$/;"	f
 tim	ledblink/ledblink.c	/^volatile unsigned int tim;$/;"	v
 tim	ledblink2/ledblink.c	/^volatile unsigned int tim;$/;"	v
 tim	ledblink_with_init/ledblink.c	/^volatile unsigned int tim;$/;"	v
+times	interrupts/cstubs.c	/^clock_t times( struct tms *buf )$/;"	f
+times	ledblink_cmake/cstubs.c	/^clock_t times( struct tms *buf )$/;"	f
+undefined_instruction_vector	interrupts/rpi-interrupts.c	/^void __attribute__((interrupt("UNDEF"))) undefined_instruction_vector(void)$/;"	f
+unlink	interrupts/cstubs.c	/^int unlink( char *name )$/;"	f
+unlink	ledblink_cmake/cstubs.c	/^int unlink( char *name )$/;"	f
 vectors	ledblink_for_lpc1343/lpcstartup.c	/^const void *vectors[128] __attribute__ ((section(".irq_vectors"))) =$/;"	v
+wait	interrupts/cstubs.c	/^int wait( int *status )$/;"	f
+wait	ledblink_cmake/cstubs.c	/^int wait( int *status )$/;"	f
+write	interrupts/cstubs.c	/^int write( int file, char *ptr, int len )$/;"	f
+write	ledblink_cmake/cstubs.c	/^int write( int file, char *ptr, int len )$/;"	f
