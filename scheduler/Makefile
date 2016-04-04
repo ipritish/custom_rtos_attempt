@@ -231,6 +231,30 @@ rpi-interrupts.c.s:
 	$(MAKE) -f CMakeFiles/kernel.elf.dir/build.make CMakeFiles/kernel.elf.dir/rpi-interrupts.c.s
 .PHONY : rpi-interrupts.c.s
 
+rpi-sched.obj: rpi-sched.c.obj
+.PHONY : rpi-sched.obj
+
+# target to build an object file
+rpi-sched.c.obj:
+	$(MAKE) -f CMakeFiles/kernel.elf.dir/build.make CMakeFiles/kernel.elf.dir/rpi-sched.c.obj
+.PHONY : rpi-sched.c.obj
+
+rpi-sched.i: rpi-sched.c.i
+.PHONY : rpi-sched.i
+
+# target to preprocess a source file
+rpi-sched.c.i:
+	$(MAKE) -f CMakeFiles/kernel.elf.dir/build.make CMakeFiles/kernel.elf.dir/rpi-sched.c.i
+.PHONY : rpi-sched.c.i
+
+rpi-sched.s: rpi-sched.c.s
+.PHONY : rpi-sched.s
+
+# target to generate assembly for a file
+rpi-sched.c.s:
+	$(MAKE) -f CMakeFiles/kernel.elf.dir/build.make CMakeFiles/kernel.elf.dir/rpi-sched.c.s
+.PHONY : rpi-sched.c.s
+
 rpi-systimer.obj: rpi-systimer.c.obj
 .PHONY : rpi-systimer.obj
 
@@ -311,6 +335,9 @@ help:
 	@echo "... rpi-interrupts.obj"
 	@echo "... rpi-interrupts.i"
 	@echo "... rpi-interrupts.s"
+	@echo "... rpi-sched.obj"
+	@echo "... rpi-sched.i"
+	@echo "... rpi-sched.s"
 	@echo "... rpi-systimer.obj"
 	@echo "... rpi-systimer.i"
 	@echo "... rpi-systimer.s"

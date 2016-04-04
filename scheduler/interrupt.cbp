@@ -74,6 +74,8 @@
       </Unit>
       <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/rpi-interrupts.c">
       </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/rpi-sched.c">
+      </Unit>
       <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/rpi-systimer.c">
       </Unit>
       <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/startup.c">
@@ -85,6 +87,8 @@
       <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/rpi-gpio.h">
       </Unit>
       <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/rpi-interrupts.h">
+      </Unit>
+      <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/rpi-sched.h">
       </Unit>
       <Unit filename="/home/user/work/rtos/custom_rtos_attempt/scheduler/rpi-systimer.h">
       </Unit>

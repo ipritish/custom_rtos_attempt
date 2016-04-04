@@ -28,7 +28,9 @@ add_executable( kernel.elf
     rpi-interrupts.c
     rpi-interrupts.h
     rpi-systimer.c
-    rpi-systimer.h )
+    rpi-systimer.h 
+	rpi-sched.c
+	rpi-sched.h )
 
 add_custom_command(
     TARGET kernel.elf POST_BUILD
