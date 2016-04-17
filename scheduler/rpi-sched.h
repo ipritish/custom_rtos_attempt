@@ -1,8 +1,9 @@
 #ifndef RPI_SCHED_H
 #define RPI_SCHED_H
 
-typedef struct {
-	int a;
-}test;
+struct node{
+	int (*registeredFunPtr)(void);
+	struct node *next;
+};
 
 #endif
