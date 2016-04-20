@@ -8,3 +8,14 @@ struct node createNode (int (*myFuncDef)(void)){
 	singleNode.registeredFunPtr = myFuncDef;
 	return singleNode;
 }
+
+void addNodeEnd(struct node *addNode, struct node *head){
+	struct node *temp;
+	temp = head;
+	if (temp->next != NULL){
+		addNodeEnd(addNode,head->next);
+	}
+	else{
+		temp->next = addNode;
+	}
+}
